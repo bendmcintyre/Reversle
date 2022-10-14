@@ -1,10 +1,42 @@
 /*
 
 Main Colors:
-
+f8ffe5 - cream
+06d6a0 - green
+1b9aaa - blue
+ef476f - pink
+ffc43d - yellow
 
 */
 
 body {
-    background-color: gray;
+    background-color: #06d6a0;;
+    margin: 1em;
+}
+
+h1 {
+    color: #1b9aaa;
+    font-size: 70px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.player-number {
+    background-color: #ef476f;
+    font-size: 2em;
+    width: 150px;
+    color: #f8ffe5;
+    border: none;
+    border-radius: 100%;
+    height: 170px;
+    width: 170px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#player-number-div {
+    margin: auto;
+    text-align: center;
+    background-color: #f8ffe5;
+    height: 500px;
 }
