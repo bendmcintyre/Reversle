@@ -7,25 +7,12 @@ let letterFive = 0;
 
 //This function generates a random letter in the alphabet that will be assigned to letters 1-5.
 
+document.getElementById("random-letter-generator").innerHTML =
+  randomLetterGenerator();
+
 function randomLetterGenerator() {
   const alphabet = "abcdefghijklmnopqrstuvwxyz";
   return (randomLetter = alphabet[Math.floor(Math.random() * alphabet.length)]);
 }
 
 console.log(randomLetterGenerator());
-
-if (){
-
-}
-else if (){
-
-}
-else if (){
-
-}
-else if (){
-
-}
-else if (){
-    
-}
