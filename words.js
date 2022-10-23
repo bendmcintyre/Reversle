@@ -1,1 +1,1 @@
-const dictionary = [];
+const dictionary = [""];
